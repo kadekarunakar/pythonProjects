@@ -1,5 +1,5 @@
 import os
-def bit_winner(bidder_details):
+def bid_winner(bidder_details):
     highest_bit=0
     winner=''
     for bidder_name in bidder_details:
@@ -22,7 +22,7 @@ while(not exit):
         os.system('cls')
     else:
         exit=True
-        bit_winner(bidder_data)
+        bid_winner(bidder_data)
 
 
 
