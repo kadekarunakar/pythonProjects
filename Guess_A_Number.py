@@ -1,3 +1,10 @@
+
+print("""   
+=========================================
+G  U  E  S  S    A    N  U  M  B  E  R
+=========================================
+""")
+
 import random
 #start
 print("let me think of a number 1 to 50")
@@ -11,10 +18,8 @@ def set_difficulty(level):
     else:
         return hard_level_attempts
 
-
 #for guessing the number
 def check_answer(guessed_number,answer):
-
     if(guessed_number<answer):
         print("your guess is Too Low")
         return attempts-1
